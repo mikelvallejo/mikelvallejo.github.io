@@ -91,6 +91,11 @@ h1 {
 }
 
 @media (max-width: 700px) {
+
+    .col-md-4 {
+       padding: 10px;
+    }
+
     .navicon {
         width: 36px;
         background: #141414;
@@ -109,17 +114,42 @@ h1 {
 
     .menu nav{
         position: fixed;
-        width: 300px;
-        height: 100vh;
+        width: auto;
+        height: auto;
         background: #141414;
         transform: translate(-100%, 0);
     }
 
     .menu nav.open{
         transform: translate(0, 0);
+        right: 10px;
+    }
+
+    .menu ul {
+        float:right;
     }
 
     .menu li {
         display: block;
+        
     }
+}
+
+/* --PROJECTS-- */
+
+
+/* --FOOTER-- */
+footer{
+    background-color:#6057c3;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.image-bottom {
+    padding-bottom: 0px;
+    width: 200px;
+    display: inline-block;
+    
+
 }
